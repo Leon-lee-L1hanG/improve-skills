@@ -1,0 +1,6 @@
+interface:
+  display_name: "技能审查与完善"
+  short_description: "审查现有技能的需求与交付，修复跑偏和验收缺陷，验证后同步并保留用户偏好"
+  default_prompt: "使用 $improve-skills 完善【技能名、路径或仓库】，先检查真实需求和实现，再修改、验证并说明未实测范围。"
+policy:
+  allow_implicit_invocation: true
